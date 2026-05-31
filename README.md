@@ -7,7 +7,6 @@
 | `crack_keepass.py` | Exercise 1a — brute-force cracker |
 | `benchmarks.py` | Exercise 2c + 2f — speed measurements & estimates |
 | `modify_header.py` | Exercise 2e — header tampering demo |
-| `Benny_modified.kdbx` | Exercise 2e — modified database deliverable |
 
 ## Requirements
 
@@ -30,7 +29,7 @@ python3 modify_header.py databases/<username>.kdbx <username>_modified.kdbx
 
 ## Cracked database
 
-- **File:** `Benny.kdbx`  
-- **Password:** `5702`  
+- **File:** `Shringar.kdbx`  
+- **Password:** `5900`  
 
 (Open with KeePassXC to read the stored login/password for Exercise 1b.)
