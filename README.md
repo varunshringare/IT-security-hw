@@ -18,13 +18,13 @@ pip install cryptography
 
 ```bash
 # Crack any group member's database
-python3 crack_keepass.py databases/<username>.kdbx
+python3 crack_keepass.py <username>.kdbx
 
 # Run benchmark & PBKDF2 calibration
-python3 benchmarks.py databases/<username>.kdbx
+python3 benchmarks.py <username>.kdbx
 
 # Generate modified database (Exercise 2e)
-python3 modify_header.py databases/<username>.kdbx <username>_modified.kdbx
+python3 modify_header.py <username>.kdbx <username>_modified.kdbx
 ```
 
 ## Cracked database
